@@ -1,0 +1,154 @@
+:root{
+    --width: 50%;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+h1{
+    color:rgb(47, 64, 112);
+    text-align: center;
+    font-size: 4em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#main-menu{ 
+   text-align: center;
+   margin-top: 200px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   color: rgb(71 130 177);
+
+}
+
+.menu-button{
+    display: inline-block;
+    font-size: 4em;
+    transition: transform 0.4s ease;
+}
+
+.menu-button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#settings{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: none;
+}
+
+#menuhead{
+    font-size: 5em;
+    text-decoration: underline;
+    
+}
+
+ul{
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    font-size: 4em;
+    color: rgb(71 130 177);
+
+}
+
+li:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+#set-head{
+    font-size: 5em;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#game{
+    display: none;
+}
+
+#board{
+    background-color: #1d3562;
+    border: 10px solid#172a4e;
+    border-radius: 10px;
+    display: grid;
+    width: 750px;
+    height: 750px;
+    margin: auto auto;
+    grid-template-columns: auto auto auto;
+    color: white;
+}
+
+.board-item{
+    display: flex;
+    justify-content: center;
+    border: 10px solid#172a4e;
+    border-collapse: collapse;
+    align-items: center;
+    font-size: 4em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    
+}
+
+.board-item:hover{
+    background-color: #294773;
+    transform: scale(1.05, 1.05);
+    cursor: pointer;
+    
+}
+
+.game-button{
+    display: inline-block;
+    padding: 10px;
+    font-size: 2em;
+    margin: 20px 20px;
+    border: 3px solid red;
+    border-radius: 5px;
+    transition: background-color 0.4s ease, color 0.4s ease, border 0.4s ease;
+}
+
+.game-button:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+#winner{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 3em;
+}
+
+.emphasize-tiles{
+    background-color: rgb(24 78 134);
+}
+
+.emphasize-buttons{
+    transform: scale(1.2);
+    border: 1px solid rgb(24 78 134);
+}
+
+#start-game{
+    text-align: center;
+    font-size: 4.2em;
+    color: rgb(71 130 177); 
+    transition: transform 0.4s ease;
+}
+
+#back{
+    text-align: center;
+    font-size: 4.2em;
+    color: rgb(71 130 177); 
+    transition: transform 0.4s ease;
+}
+
+#start-game:hover, #back:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}

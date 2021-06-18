@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel='stylesheet' href='style.css'>
+        <title>
+            tic-tac-toe
+        </title>
+    </head>
+    <body>
+        <h1>TIC-TAC-TOE</h1>
+        <div id='main-menu'>
+            <header id='menuhead' style='color: rgb(73 110 140);'>Choose your game...</header>
+            <div id='vsplayer' class='menu-button'>Player vs Player</div><br>
+            <div id='vscomputer' class='menu-button'>Player vs Computer</div>
+        </div>
+        
+        <div id='settings'>
+            <div id='set-head' style='color: rgb(73 110 140);'>Choose difficuty and token...</div>
+            <div id='difficulty'>
+                <ul class='difficulty'>
+                    <li id='easy' class='emphasize-buttons'>Easy</li>
+                    <li id='hard'>Hard (NA)</li>
+                </ul>
+            </div>
+            <div id='weapon'>
+                <ul class='weapon'>
+                    <li id='x' class='emphasize-buttons'>X</li>
+                    <li id='o'>O</li>
+                </ul>
+
+            </div>
+            <div id='start-game'>Start Game</div>
+            <div id='back'>Go back</div>
+        </div>
+
+
+        <div id='game'>
+            <div id='board'>
+                <div class='board-item'></div>
+                <div class='board-item'></div>
+                <div class='board-item'></div>
+                <div class='board-item'></div>
+                <div class='board-item'></div>
+                <div class='board-item'></div>
+                <div class='board-item'></div>
+                <div class='board-item'></div>
+                <div class='board-item'></div>
+            </div>
+
+            <div id='winner'>
+
+            </div>
+
+            <div style='text-align: center'>
+                <div id='go-back' class='game-button'>Go back</div>
+                <div id='restart' class='game-button'>Restart</div>
+            </div>
+        
+
+        </div>
+
+
+        <script src='script.js'></script>
+    </body>
+</html>
