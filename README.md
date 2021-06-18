@@ -1,4 +1,4 @@
-#TIC-TAC-TOE
+# TIC-TAC-TOE
 
 This is a tic-tac-toe game made using javascript, html and css.
 
